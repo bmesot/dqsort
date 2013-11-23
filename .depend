@@ -1,0 +1,5 @@
+dqsort.o: dqsort.h
+stack.o: stack.h
+dqsort.o: dqsort.c stack.h dqsort.h
+stack.o: stack.c stack.h
+test_dqsort.o: test_dqsort.c dqsort.h
